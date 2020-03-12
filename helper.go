@@ -2,9 +2,9 @@ package helper
 
 import "fmt"
 
-// CheckErr checks if there is an error, if true
+// PrintErr checks if the err is nil, if not,
 // print the error.
-func CheckErr(err error) {
+func PrintErr(err error) {
 	if err != nil {
 		fmt.Println(err)
 	}
